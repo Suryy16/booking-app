@@ -64,3 +64,86 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+### Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository**
+
+    ```sh
+    git clone https://github.com/Mdennjya/ClayConnect.git
+    cd ClayConnect
+    ```
+
+2. **Install dependencies**
+
+    Use Composer to install PHP dependencies:
+
+    ```sh
+    composer install
+    ```
+
+    Use npm to install JavaScript dependencies:
+
+    ```sh
+    npm install
+    ```
+
+3. **Set up environment variables**
+
+    Copy the example environment file and set your own variables:
+
+    ```sh
+    cp .env.example .env
+    ```
+
+    Edit the `.env` file to match your environment. You can use any text editor for this purpose.
+
+4. **Generate application key**
+
+    ```sh
+    php artisan key:generate
+    ```
+
+5. **Run database migrations**
+
+    Make sure your database is set up and configured in your `.env` file, then run:
+
+    ```sh
+    php artisan migrate
+    ```
+
+6. **Start the development server**
+
+    ```sh
+    php artisan serve
+    ```
+
+    The application will start on `http://localhost:8000`.
+
+7. **Compile assets**
+
+    To compile the assets, run:
+
+    ```sh
+    npm run dev
+    ```
+
+### Additional Steps (Optional)
+
+- **Seeder (if applicable)**
+
+    If the project includes database seeders, you can run them with:
+
+    ```sh
+    php artisan db:seed
+    ```
+
+- **Running Tests**
+
+    To run the tests, use:
+
+    ```sh
+    php artisan test
+    ```
