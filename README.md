@@ -72,7 +72,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/Mdennjya/ClayConnect.git
+    git clone https://github.com/Suryy16/booking-app.git
     cd ClayConnect
     ```
 
