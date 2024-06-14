@@ -73,7 +73,7 @@ Follow these steps to set up the project locally:
 
     ```sh
     git clone https://github.com/Suryy16/booking-app.git
-    cd ClayConnect
+    cd booking-app
     ```
 
 2. **Install dependencies**
